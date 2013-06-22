@@ -20,6 +20,7 @@ main() {
 
   test('LatLng.toString call js', () {
     final latLng = new LatLng(2, 8);
+    expect(latLng.lat,equals(2) );
     expect(latLng.toString(), equals("(2, 8)"));
   });
 
